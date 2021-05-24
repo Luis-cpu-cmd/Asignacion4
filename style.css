@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/images/vegetables-set-to-the-left-of-black-slate.jpg');
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+}
+.menu a{
+    text-decoration: none;
+}
+header{
+	height:auto;
+	width: 100%;
+	position: relative;
+	background-color:rgba(0,0,0,.4);
+	box-shadow: 0px 2px 5px rgba(0,0,0,.4);  
+}
+
+#sidebar-container{
+    min-height: 100vh;
+}
+#sidebar-container .menu{
+    width: 18rem;
+}
+#RecetasContainer{
+    width: 100%;
+    height: auto;
+}
+.RCT{
+    background-color: rgba(78, 75, 75, 0.9);   
+}
+.ImageName img{
+    width: 50vh;
+    height: 40vh;
+}
+.NumReceta{
+    background-color: rgb(41, 39, 39,.9);
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.icon {
+    font-size: 40px;
+    color: aliceblue;
+  }
